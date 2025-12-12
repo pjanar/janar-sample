@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: tg2
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: str
+        operator: regex
+        operands:
+            - 23weq
