@@ -4,7 +4,7 @@ kind: target-group
 
 name: tg2
 
-description: tg2 desc fr
+description: tg2 desc from scm to preprod
 
 conditions:
   anyOf:
