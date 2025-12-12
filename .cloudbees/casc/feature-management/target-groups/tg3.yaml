@@ -2,15 +2,18 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: tg2
+name: tg3
 
-description: tg2 desc
+description: 
 
 conditions:
-  anyOf:
-    - property:
-        name: cp1
-        operator: is-true
+  allOf:
     - property:
         name: cp2
+        operator: is-true
+    - property:
+        name: cp1
         operator: is-false
+    - anyOf:
+        - group:
+            id: 8fc16f6d-fe9e-40fe-ac2d-c734bc598bd4

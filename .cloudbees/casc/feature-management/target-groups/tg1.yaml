@@ -9,5 +9,5 @@ description:
 conditions:
   allOf:
     - property:
-        name: str
+        name: cp1
         operator: is-undefined

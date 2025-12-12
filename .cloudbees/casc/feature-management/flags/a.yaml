@@ -2,11 +2,11 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: f1
+flag: a
 flagType: boolean
 description: ""
 labels:
-  - testlabel
+  - l2
 
 availableValues:
   - "true"
