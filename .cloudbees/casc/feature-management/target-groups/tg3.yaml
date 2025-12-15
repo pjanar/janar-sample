@@ -4,7 +4,7 @@ kind: target-group
 
 name: tg3
 
-description: desc
+description: desc for github 
 
 conditions:
   allOf:
