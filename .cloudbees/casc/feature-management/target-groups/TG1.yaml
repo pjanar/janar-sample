@@ -4,7 +4,7 @@ kind: target-group
 
 name: TG1
 
-description: from desc
+description: from desc FM 
 
 conditions:
   allOf:
