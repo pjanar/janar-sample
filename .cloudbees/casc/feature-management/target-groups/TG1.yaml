@@ -2,12 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: tg-1
+name: TG1
 
-description: scm
+description: online edit
 
 conditions:
   allOf:
     - property:
-        name: cp-boolean-1
-        operator: is-false
+        name: cp-1
+        operator: is-true

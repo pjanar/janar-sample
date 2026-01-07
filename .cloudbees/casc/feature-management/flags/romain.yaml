@@ -2,13 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: showMessage
+flag: romain
 flagType: boolean
 description: ""
 labels:
 
 availableValues:
-  - "false"
   - "true"
+  - "false"
 
 isPermanent: false
