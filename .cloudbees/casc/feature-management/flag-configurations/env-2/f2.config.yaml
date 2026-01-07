@@ -2,12 +2,16 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: fm-test-flag
+flag: f2
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: true
+defaultValue:
+  - percentage: 50
+    option: true
+  - percentage: 50
+    option: false
 
 conditions: []

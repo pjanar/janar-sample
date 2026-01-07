@@ -1,0 +1,18 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: imperial-forces
+
+description: The pride of the Empire
+
+conditions:
+  allOf:
+    - property:
+        name: spaceship
+        operator: in-array
+        operands:
+            - tie-fighter
+            - cruiser
+            - tiebomber
+            - stardestroyer

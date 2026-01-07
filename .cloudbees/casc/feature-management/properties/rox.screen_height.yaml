@@ -2,6 +2,6 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-properties
 
-name: cp-3
-type: Boolean
+name: rox.screen_height
+type: Number
 description: ""

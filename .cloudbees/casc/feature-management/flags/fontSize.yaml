@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: fontSize
+flagType: number
+description: ""
+labels:
+
+availableValues:
+  - "12"
+  - "16"
+  - "24"
+
+isPermanent: false
