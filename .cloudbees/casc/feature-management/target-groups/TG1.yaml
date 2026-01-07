@@ -4,7 +4,7 @@ kind: target-group
 
 name: TG1
 
-description: online edit
+description: scm
 
 conditions:
   allOf:
