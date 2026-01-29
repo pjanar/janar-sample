@@ -6,7 +6,7 @@ flag: fm-test-flag
 
 enabled: true
 
-stickinessProperty: cp-1
+stickinessProperty: rox.distinct_id
 
 defaultValue: true
 

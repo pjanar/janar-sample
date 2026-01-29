@@ -2,20 +2,22 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: delete-me-too
+flag: fm-test-flag
 
 enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: true
 
 conditions:
   - allOf:
       - property:
-          name: rox.platform
-          operator: in-array
-          operands:
-            - value
+          name: cp-romain
+          operator: is-true
     flagValue: true
+  - allOf:
+      - property:
+          name: cp-romain
+          operator: is-false
+    flagValue: false
