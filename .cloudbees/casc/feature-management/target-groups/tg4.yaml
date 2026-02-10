@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: tg4
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: rox.screen_height
+        operator: is-undefined
