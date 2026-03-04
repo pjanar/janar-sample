@@ -15,4 +15,4 @@ conditions:
       - anyOf:
           - group:
               name: tgNumProp
-    flagValue: true
+    flagValue: false
