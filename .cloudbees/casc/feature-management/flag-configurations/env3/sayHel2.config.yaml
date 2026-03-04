@@ -12,9 +12,7 @@ defaultValue: false
 
 conditions:
   - allOf:
-      - property:
-          name: numProp
-          operator: eq
-          operands:
-            - 216
+      - anyOf:
+          - group:
+              name: tgNumProp
     flagValue: true
