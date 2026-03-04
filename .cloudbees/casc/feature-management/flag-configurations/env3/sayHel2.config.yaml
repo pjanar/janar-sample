@@ -10,4 +10,11 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: numProp
+          operator: eq
+          operands:
+            - 216
+    flagValue: true
