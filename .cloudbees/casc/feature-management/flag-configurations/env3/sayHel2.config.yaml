@@ -16,5 +16,5 @@ conditions:
           name: numProp
           operator: eq
           operands:
-            - 216
+            - 215
     flagValue: true
