@@ -11,3 +11,8 @@ conditions:
     - property:
         name: cp-boolean-1
         operator: is-false
+    - property:
+        name: number
+        operator: gt
+        operands:
+            - 2
