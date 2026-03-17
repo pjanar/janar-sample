@@ -4,7 +4,7 @@ kind: target-group
 
 name: tg4
 
-description: 
+description: sample
 
 conditions:
   allOf:
