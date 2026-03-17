@@ -4,7 +4,7 @@ kind: target-group
 
 name: tg-1
 
-description: desc 2
+description: desc 2 jan
 
 conditions:
   allOf:
