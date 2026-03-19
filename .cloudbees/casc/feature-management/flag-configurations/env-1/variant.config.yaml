@@ -10,4 +10,11 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: var3
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: userId
+          operator: in-array
+          operands:
+            - bgunasekaran@cloudbees.com
+    flagValue: var2
