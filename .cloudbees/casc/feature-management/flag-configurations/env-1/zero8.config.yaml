@@ -22,4 +22,4 @@ conditions:
           operands:
             - bgunasekaran@cloudbees.com
             - ' bgunasekaran@cloudbees.com'
-    flagValue: false
+    flagValue: true
