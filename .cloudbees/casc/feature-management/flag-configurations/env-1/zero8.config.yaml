@@ -1,0 +1,25 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: zero8
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  - percentage: 90
+    option: true
+  - percentage: 10
+    option: false
+
+conditions:
+  - allOf:
+      - property:
+          name: userId
+          operator: in-array
+          operands:
+            - bgunasekaran@cloudbees.com
+            - ' bgunasekaran@cloudbees.com'
+    flagValue: false
