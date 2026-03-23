@@ -2,12 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: tg4
+name: tg1
 
-description: sample
+description: 
 
 conditions:
   allOf:
     - property:
-        name: rox.screen_height
-        operator: is-undefined
+        name: name
+        operator: regex
+        operands:
+            - scm
