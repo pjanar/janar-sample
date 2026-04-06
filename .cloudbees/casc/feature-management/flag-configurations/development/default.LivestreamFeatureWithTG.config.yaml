@@ -1,0 +1,18 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: default.LivestreamFeatureWithTG
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: false
+
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: NandhaTest
+    flagValue: true

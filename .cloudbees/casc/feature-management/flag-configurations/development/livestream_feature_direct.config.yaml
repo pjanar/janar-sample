@@ -1,0 +1,20 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: livestream_feature_direct
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: false
+
+conditions:
+  - allOf:
+      - property:
+          name: contentPartner
+          operator: eq
+          operands:
+            - 216
+    flagValue: true

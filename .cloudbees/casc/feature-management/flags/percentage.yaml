@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: percentage
+flagType: number
+description: ""
+labels:
+
+availableValues:
+  - "10.5"
+  - "50"
+  - "99.9"
+
+isPermanent: false
