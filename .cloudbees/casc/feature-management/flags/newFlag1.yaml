@@ -2,13 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: livestream_feature_direct
+flag: newFlag1
 flagType: boolean
-description: ""
+description: This flag was created with the following entites served from Postgres; flags, custom props, sdkkeys
 labels:
 
 availableValues:
-  - "false"
   - "true"
+  - "false"
 
 isPermanent: false
